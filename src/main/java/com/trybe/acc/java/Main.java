@@ -31,7 +31,7 @@ public class Main {
     StringBuilder stringBuilder = new StringBuilder();
     StringBuilder resultado = stringBuilder.append("Olá, ")
                                            .append(nome)
-                                           .append(" sua média é ")
+                                           .append(", sua média é ")
                                            .append(media);
     System.out.print(resultado);
   }
